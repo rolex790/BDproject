@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday 🎉</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <div class="card">
+        <h1>🎂 Happy Birthday, Karthikeyan! 🎉</h1>
+
+        <img src="photo.jpeg" alt="Birthday Photo" class="photo">
+
+        <p id="message">
+            Wishing you a day filled with happiness and a year filled with joy!
+        </p>
+
+        <button onclick="changeMessage()">Click for Surprise 🎁</button>
+    </div>
+
+    <script>
+        function changeMessage() {
+            document.getElementById("message").innerText =
+                "🎉 You are amazing, Karthikeyan! Stay blessed and keep smiling always! 💖";
+        }
+    </script>
+
+</body>
+</html>
