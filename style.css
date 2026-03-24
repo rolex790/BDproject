@@ -1,0 +1,67 @@
+/* Body and background */
+body {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+/* Heading */
+h1 {
+    font-size: 6vw; /* responsive font size */
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Card container */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 400px; /* good for phones */
+    margin: auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Photo styling */
+.photo {
+    width: 70vw;      /* responsive width */
+    max-width: 250px; /* max for larger screens */
+    height: auto;     /* maintains aspect ratio */
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px 0;
+    border: 5px solid #ff6f61;
+}
+
+/* Message paragraph */
+p {
+    font-size: 4vw;   /* responsive font size */
+    margin: 15px 0;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 4vw;
+    max-font-size: 18px;
+    background: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff3b2e;
+}
+
+/* Optional: small screens */
+@media (max-width: 400px) {
+    h1 { font-size: 8vw; }
+    p { font-size: 5vw; }
+    button { font-size: 5vw; }
+}
